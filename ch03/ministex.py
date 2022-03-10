@@ -19,6 +19,8 @@ def get_data():
     return x_test, t_test
 
 def init_network():
+    currentPath = os.getcwd()
+    osch
     with open("sample_weight.pkl", 'rb') as f:
         network = pickle.load(f)
     
